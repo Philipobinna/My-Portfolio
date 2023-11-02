@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="w-full flex flex-col lg:flex-row px-8 md:px-10 gap-10 2xl:gap-20 py-20">
       <div className="flex flex-col mb-20 lg:mb-0">
-        <span className="text-lg font-bold text-orange-700 ">
+        <span className="text-lg font-bold text-orange-700">
           PHILIP OBINNAKWELU
         </span>
         <div className="flex gap-4 items-center my-4">
@@ -57,7 +57,7 @@ const Header = () => {
           />
           <img
             src={Nodejs}
-            className="absolute bottom-7 md:bottom-20 right-3 2xl:right-12 w-12 h-12 md:w-20 md:h-20"
+            className="absolute bottom-7 md:bottom-20 right-3 2xl:right-12 w-12 h-12 md:w-20 md:h-20" 
           />
         </div>
       </div>
