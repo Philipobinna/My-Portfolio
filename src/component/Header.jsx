@@ -7,7 +7,7 @@ const Header = () => {
     <div className="w-full flex flex-col lg:flex-row px-8 md:px-10 gap-10 2xl:gap-20 py-20">
       <div className="flex flex-col mb-20 lg:mb-0">
         <span className="text-lg font-bold text-orange-700 ">
-          FULL-STACK ENGINEER
+          PHILIP OBINNAKWELU
         </span>
         <div className="flex gap-4 items-center my-4">
           <h1 className="text-gray-800 dark:text-neutral-100 text-5xl 2xl:text-7xl font-bold text-center">
@@ -20,7 +20,7 @@ const Header = () => {
           </div>
         </div>
         <h1 className="text-5xl 2xl:text-7xl font-extrabold text-black dark:text-neutral-100 tracking-wider ">
-          PHILIP
+          FULL-STACK ENGINEER
         </h1>
         <p className="text-md text-black dark:text-gray-100 mt-5 2xl:mt-10">
           Full-Stack Web Developer with ability to learn and collaborate in
@@ -37,21 +37,31 @@ const Header = () => {
           </a>
         </div>
       </div>
-    <div className="w-[320px] h-[320px] md:w-[600px] md:h-[600px] 2xl:w-[700px] 2xl:h-[700px] rounded-full border border-gray-600 dark:border-gray-200 relative md:nt-20 lg:mt-0 flex items-center justify-center">
-
-      <img src={Profile} className="w-full h-full absolute rounded-full object-cover " />
-      <div className="relative w-full h-full rounded-full">
-        <img src={Reactjs} className="absolute top-7 md:top-20 left-3 2xl:left-8 w-12 h-12 md:w-20 md:h-20"/>
-        <img src={Redux} className="absolute bottom-7 md:bottom-20 left-3 2xl:left-12 w-12 h-12 md:w-20 md:h-20"/>
-        <img src={Mongodb} className="absolute top-3 md:top-20 right-0 2xl:left-8 w-16 h-16 md:w-20 md:h-20"/>
-        <img src={Nodejs} className="absolute bottom-7 md:bottom-20 right-3 2xl:right-12 w-12 h-12 md:w-20 md:h-20"/>
+      <div className="w-[320px] h-[320px] md:w-[600px] md:h-[600px] 2xl:w-[700px] 2xl:h-[700px] rounded-full border border-gray-600 dark:border-gray-200 relative md:nt-20 lg:mt-0 flex items-center justify-center">
+        <img
+          src={Profile}
+          className="w-full h-full absolute rounded-full object-cover "
+        />
+        <div className="relative w-full h-full rounded-full">
+          <img
+            src={Reactjs}
+            className="absolute top-7 md:top-20 left-3 2xl:left-8 w-12 h-12 md:w-20 md:h-20"
+          />
+          <img
+            src={Redux}
+            className="absolute bottom-7 md:bottom-20 left-3 2xl:left-12 w-12 h-12 md:w-20 md:h-20"
+          />
+          <img
+            src={Mongodb}
+            className="absolute top-3 md:top-20 right-0 2xl:left-8 w-16 h-16 md:w-20 md:h-20"
+          />
+          <img
+            src={Nodejs}
+            className="absolute bottom-7 md:bottom-20 right-3 2xl:right-12 w-12 h-12 md:w-20 md:h-20"
+          />
+        </div>
       </div>
-      
-
     </div>
-    
-    </div>
-
   );
 };
 
