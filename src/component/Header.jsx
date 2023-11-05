@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-import { Mongodb, Nodejs, Profile, Reactjs, Redux } from "../assets";
+import {  Profile } from "../assets";
 
 const Header = () => {
   return (
@@ -42,24 +42,6 @@ const Header = () => {
           src={Profile}
           className="w-full h-full absolute rounded-full object-cover "
         />
-        <div className="relative w-full h-full rounded-full">
-          <img
-            src={Reactjs}
-            className="absolute top-7 md:top-20 left-3 2xl:left-8 w-12 h-12 md:w-20 md:h-20"
-          />
-          <img
-            src={Redux}
-            className="absolute bottom-7 md:bottom-20 left-3 2xl:left-12 w-12 h-12 md:w-20 md:h-20"
-          />
-          <img
-            src={Mongodb}
-            className="absolute top-3 md:top-20 right-0 2xl:left-8 w-16 h-16 md:w-20 md:h-20"
-          />
-          <img
-            src={Nodejs}
-            className="absolute bottom-7 md:bottom-20 right-3 2xl:right-12 w-12 h-12 md:w-20 md:h-20" 
-          />
-        </div>
       </div>
     </div>
   );
