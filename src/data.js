@@ -25,11 +25,11 @@ export const projectStats = [
   },
   {
     name: "Website Design",
-    value: "20+",
+    value: "10+",
   },
   {
     name: "Mobile App Design",
-    value: "5",
+    value: "2",
   },
   {
     name: "Clients worldwide",

@@ -9,7 +9,7 @@ const Footer = () => {
 
       <div className="w-full flex flex-col md:flex-row py-20 px-8 md:px-10 gap-10 lg:gap-20 justify-between ">
         <p className="text-lg text-white font-semibold ">
-          Address:  Rd 8, Alabeko Street, Ajah, Lagos State 
+          Address:  Orchid Rd, Lekki Penninsula II , Lagos State 
         </p>
 
         <div className="flex flex-col md:flex-row text-md gap-5 md:gap-20 text-white ">
